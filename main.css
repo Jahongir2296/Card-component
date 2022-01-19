@@ -7,9 +7,12 @@
 body{
     background: #0a0c1b;
 }
+.container{
+    max-width: 1118px;
+    padding: 0 5px;
+    margin: 0 auto;
+}
 .card{
-    width: 1108px;
-    height: 446px;
     background: #1c1938;
     display: flex;
     margin: 100px auto 200px;
@@ -56,4 +59,13 @@ body{
     filter: opacity(0.5);
 
 }
+/*@media screen and (max-width: 375px){*/
+/*    .card {*/
+/*        flex-direction: column-reverse;*/
+/*    }*/
+/*    .card-img{*/
+/*        width: 100%;*/
+/*        height: auto;*/
+/*    }*/
+/*}*/
 
